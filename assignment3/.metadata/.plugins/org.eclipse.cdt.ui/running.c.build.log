@@ -1,0 +1,10 @@
+15:43:56 **** Incremental Build of configuration Debug for project running.c ****
+make -j2 all 
+arm-none-eabi-size  running.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1280	      4	   1564	   2848	    b20	running.c.elf
+Finished building: default.size.stdout
+ 
+
+15:43:57 Build Finished. 0 errors, 0 warnings. (took 719ms)
+

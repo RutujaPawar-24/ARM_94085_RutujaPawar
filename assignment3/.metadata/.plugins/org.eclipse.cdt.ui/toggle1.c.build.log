@@ -1,0 +1,10 @@
+09:01:35 **** Incremental Build of configuration Debug for project toggle1.c ****
+make -j2 all 
+arm-none-eabi-size  toggle1.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+    984	      4	   1564	   2552	    9f8	toggle1.c.elf
+Finished building: default.size.stdout
+ 
+
+09:01:36 Build Finished. 0 errors, 0 warnings. (took 740ms)
+
