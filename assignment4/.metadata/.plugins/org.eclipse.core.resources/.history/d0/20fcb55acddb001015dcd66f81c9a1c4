@@ -1,0 +1,30 @@
+/*
+ * toggle_led.c
+ *
+ *  Created on: Dec 18, 2025
+ *      Author: Hp
+ */
+
+
+#include "toggle_led.h"
+
+void led_init(void)
+{
+	//0. enable clock for GPIOD in AHB1
+	RCC->AHB1ENR |= bv(3);
+	//1. select mode as output
+	GPIOD->MODER &= ~(bv(29));
+	GPIOD->MODER |= bv(28);
+	//2. select type as push pull
+	GPIOD->OTYPER &= ~(bv(14));
+	//3. select speed as low
+	GPIOD->OSPEEDR &= ~(bv(28) | bv(29));
+	//4. select pull up/down as no
+	GPIOD->PUPDR &= ~(bv(28) | bv(29));
+}
+void toggle(void)
+{
+	GPIOD->ODR^=bv(14);
+}
+
+

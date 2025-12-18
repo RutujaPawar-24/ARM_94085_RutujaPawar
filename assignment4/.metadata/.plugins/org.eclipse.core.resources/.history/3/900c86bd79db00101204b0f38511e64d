@@ -1,0 +1,21 @@
+/*
+ * my_switch.h
+ *
+ *  Created on: Dec 17, 2025
+ *      Author: Hp
+ */
+
+#ifndef MY_SWITCH_H_
+#define MY_SWITCH_H_
+
+#include<stdio.h>
+#include<stdint.h>
+#include "stm32f407xx.h"
+#define bv(n) (1<<(n))
+
+void switch_init(void);
+void Switch_status(void);
+
+
+
+#endif /* MY_SWITCH_H_ */

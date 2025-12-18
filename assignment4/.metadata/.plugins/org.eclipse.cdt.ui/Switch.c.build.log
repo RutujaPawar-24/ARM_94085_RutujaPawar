@@ -1,0 +1,10 @@
+00:22:06 **** Incremental Build of configuration Debug for project Switch.c ****
+make -j2 all 
+arm-none-eabi-size  Switch.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1156	      4	   1564	   2724	    aa4	Switch.c.elf
+Finished building: default.size.stdout
+ 
+
+00:22:07 Build Finished. 0 errors, 0 warnings. (took 1s.36ms)
+

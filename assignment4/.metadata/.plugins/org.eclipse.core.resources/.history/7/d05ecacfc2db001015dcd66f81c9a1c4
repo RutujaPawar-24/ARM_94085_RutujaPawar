@@ -1,0 +1,20 @@
+/*
+ * toggle_switch.h
+ *
+ *  Created on: Dec 18, 2025
+ *      Author: Hp
+ */
+
+#ifndef TOGGLE_SWITCH_H_
+#define TOGGLE_SWITCH_H_
+
+#include<stdio.h>
+#include<stdint.h>
+#include"stm32f407xx.h"
+
+#define BV(n) (1<<(n))
+
+void switch_init(void);
+int switch_status(void);
+
+#endif /* TOGGLE_SWITCH_H_ */
