@@ -1,0 +1,10 @@
+11:06:32 **** Incremental Build of configuration Debug for project running_R_L ****
+make -j2 all 
+arm-none-eabi-size  running_R_L.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6108	     12	   1572	   7692	   1e0c	running_R_L.elf
+Finished building: default.size.stdout
+ 
+
+11:06:33 Build Finished. 0 errors, 0 warnings. (took 1s.425ms)
+
