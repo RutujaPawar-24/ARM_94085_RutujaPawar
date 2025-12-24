@@ -1,0 +1,10 @@
+10:43:10 **** Incremental Build of configuration Debug for project alternate ****
+make -j2 all 
+arm-none-eabi-size  alternate.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6044	     12	   1572	   7628	   1dcc	alternate.elf
+Finished building: default.size.stdout
+ 
+
+10:43:10 Build Finished. 0 errors, 0 warnings. (took 569ms)
+
