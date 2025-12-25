@@ -1,0 +1,10 @@
+11:31:35 **** Incremental Build of configuration Debug for project stateBased.c ****
+make -j2 all 
+arm-none-eabi-size  stateBased.c.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1212	      4	   1564	   2780	    adc	stateBased.c.elf
+Finished building: default.size.stdout
+ 
+
+11:31:36 Build Finished. 0 errors, 0 warnings. (took 1s.224ms)
+
