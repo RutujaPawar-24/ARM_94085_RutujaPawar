@@ -1,0 +1,10 @@
+18:10:13 **** Incremental Build of configuration Debug for project switch_buzzer ****
+make -j2 all 
+arm-none-eabi-size  switch_buzzer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6024	     12	   1572	   7608	   1db8	switch_buzzer.elf
+Finished building: default.size.stdout
+ 
+
+18:10:14 Build Finished. 0 errors, 0 warnings. (took 1s.34ms)
+
