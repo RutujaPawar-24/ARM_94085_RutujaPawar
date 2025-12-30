@@ -1,0 +1,19 @@
+/*
+ * mq2.h
+ *
+ *  Created on: Dec 30, 2025
+ *      Author: Hp
+ */
+
+#ifndef INC_MQ2_H_
+#define INC_MQ2_H_
+
+char volatile str1[20];
+char volatilestr2[20];
+uint16_t volatile val;
+
+
+void adc_conversion(void);
+void print_putty(void);
+void gas_led(void);
+#endif /* INC_MQ2_H_ */

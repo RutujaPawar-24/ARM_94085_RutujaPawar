@@ -1,0 +1,10 @@
+17:30:01 **** Incremental Build of configuration Debug for project mq2_lcd ****
+make -j2 all 
+arm-none-eabi-size  mq2_lcd.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34728	    468	   2068	  37264	   9190	mq2_lcd.elf
+Finished building: default.size.stdout
+ 
+
+17:30:03 Build Finished. 0 errors, 0 warnings. (took 1s.165ms)
+
